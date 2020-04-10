@@ -25,6 +25,7 @@ class EmployeeManager {
             $employee = new Employee($obj->name, $obj->dateOfBirth, $obj->address, $obj->position);
             self::$listEmployee[$index] = $employee;
         }
+        return self::$listEmployee;
     }
 
     public function saveDataToFile($data) {
