@@ -32,5 +32,4 @@ class EmployeeManager {
         $dataJson = json_encode($data);
         file_put_contents($this->file, $dataJson);
     }
-
 }

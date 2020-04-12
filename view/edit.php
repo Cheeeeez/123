@@ -32,7 +32,7 @@ $employeeManager->getDataJson();
         <input type="text" class="form-control" id="name" name="name" value="<?php echo EmployeeManager::$listEmployee[$index]->getName()?>">
     </div>
     <div class="form-group">
-        <label for="exampleInputPassword1">Ngày sinh :</label>
+        <label for="exampleInputPassword1">Ngày sinh (mm/dd/yyyy) :</label>
         <input type="date" value="<?php echo EmployeeManager::$listEmployee[$index]->getDateOfBirth()?>" class="form-control" id="date-of-birth" name="date-of-birth">
     </div>
     <div class="form-group">
